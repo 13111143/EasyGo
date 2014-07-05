@@ -1,0 +1,50 @@
+/*
+ *菜单样式
+ */
+
+*{
+margin:0;
+padding:0;
+font-family: 微软雅黑;
+font-size: 14px;
+}
+
+
+a{
+text-decoration: none;
+color:#999966;
+}
+
+
+ body{
+ 	/*background-color: lightblue;*/
+ }
+
+#center{
+position: absolute;
+width:100%;
+top:20px;
+}
+	 #notelist{
+	 list-style: none;
+	 text-align: center;
+	 line-height: 30px;
+	 }
+ 		
+ 		#notelist li{
+	 		margin-top: 5px;
+		 }
+		 #notelist li div{
+	 	 height:30px;
+		 }
+
+		 #notelist li span{
+	 		color:#5C5C66;
+	 		font-size: 15px;
+		 }
+		 .hasBorder{
+		 	border-left:5px solid white;
+		 }
+		 .selected{
+		border-left:5px solid black;
+		}

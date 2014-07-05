@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AdminEnterance</title>
+	<link rel="stylesheet" href="./css/reg.css">
+	<link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+	<div id="box">
+		<div id="head">
+			<span>AdminEnterance</span>		
+		</div>
+		<div id="regDiv">
+			<form action="adminLogin.php" id="form" method="post">
+				<label for="user_name" id="label_name">ID</label>
+				<input type="text" class="textInput" id="user_name" name="user_name" placeholder="AdminID"><br>
+				<label for="user_password" id="label_password">PW</label>
+				<input type="password" class="textInput" id="user_password" name="user_password" placeholder="AdminPW" >
+				<input type="submit" value="Enter" id="submit">
+			</form>
+		</div>
+	</div>
+	<script src=".\js\jquery-2.0.3.min.js"></script>
+	<script src=".\js\check.js"></script>
+</body>
+</html>

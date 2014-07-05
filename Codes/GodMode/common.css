@@ -1,0 +1,76 @@
+*{
+margin:0;
+padding:0;
+font-family: 微软雅黑;
+font-size: 14px;
+}
+#all{
+	position: absolute;
+	opacity: 0;
+}
+#Head{
+	position: absolute;
+	top:26px;
+	left:0px;
+	height:30px;
+	width:500px;
+	font-size: 20px;
+	color:#5C5C66;
+	border-bottom: 1px solid lightgray;
+}
+
+#behave{
+	position: absolute;
+	top:70px;
+	left:0px;
+	width:500px;
+}
+	#behave #cutline{
+	margin-top:15px;
+	width:338px;
+	height:1px;
+	border-bottom:1px solid lightgray;
+	}
+
+	#behave #rank{
+	width:100px;
+	height:19px;
+	display: inline-block;
+	color:#5C5C66;
+	border-radius: 2px;
+	text-align: center;
+	background-color: lightgray;
+	cursor:pointer;
+	border:1px solid #5C5C66;
+	}
+	#behave #rank:hover{
+		background-color: gray;
+	}
+
+
+	#behave input{
+	outline: none;
+	margin-top:10px;
+	border:1px solid #5C5C66;
+	border-radius: 2px;
+	}
+	#behave label{
+		color:#999966;
+	}
+	#behave #submit{
+		color:#5C5C66;
+		background-color: lightgray;
+		width:155px;
+		cursor:pointer;
+		margin-left:75px;
+	}
+	#behave #submit:hover{
+		background-color: gray;
+	}
+
+	#behave input:focus{
+	-webkit-transition: box-shadow 0.30s ease-in-out;
+	-moz-transition: box-shadow 0.30s ease-in-out;
+	border:1px solid #303942;
+	box-shadow: 0px 0px 5px #303942;
+	}
