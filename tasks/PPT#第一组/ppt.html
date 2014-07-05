@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Web工程展示</title>
+        <meta charset="utf-8" />
+        <link href="./CSS/impress-demo.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./CSS/modify.css">
+        <link rel="stylesheet" href="./CSS/common.css">
+        <link rel="stylesheet" href="./CSS/font-awesome.min.css">
+        <link rel="stylesheet" href="./CSS/animation.css">
+    </head>
+    <body>
+        <div class="impress-not-supported">
+            <div class="fallback-message">
+                <p>你的浏览器<b>不支持</b> impress.js, 所以当前展示的是简化版。</p>
+                <p>为了获得更好的体验，请使用最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
+            </div>
+        </div>
+        <div id="impress" class="modify-font">
+            <div class="step" id="1" data-x="0" data-y="0" data-scale="3">
+                <i class="icon-globe icon-spin"></i>&nbsp&nbsp  <b>Web工程</b><br>
+                <p class="font-gray smaller tab ">一个基于<span class="highlight a-ring"><b>AJAX</b></span>的搜索导航 - <span class="highlight a-ring"><b>Easy-Go</b></span></p>
+            </div>
+            <div class="step" data-x="1000" data-y="0" data-rotate="60" data-scale="0.5">
+                <span><i class="icon-group"></i> <b>队伍</b></span>
+                <br>
+                <div class="smallest">
+                    <i class="icon-certificate icon-spin"></i> <b>黄华健</b><br>
+                    <i class="icon-user"></i> <b>李鹏，李鸿麟，任雅丽，王莹，王潭，王诗琪</b>
+                </div>
+            </div>
+            <div class="step" data-x="500" data-y="-600" data-z="500" data-rotate="180" data-scale="0.5">
+                <i class="icon-home"></i> <b>简介</b><br>
+                <div class="smaller">
+                    <b class="highlight positioning a-bounce">AJAX</b>:通俗地来说,AJAX就是在不刷新页面的情况下更新页面。<br>   
+                    <b class="highlight positioning a-bounce">搜索导航</b>:在我们的首页会有一个醒目的搜索栏。<br>
+                    <b>我们所描绘的搜索导航就是</b>：用户在搜索栏里打字的时候，网站能根据用户输入快速响应，在下方显示我们数据库中收录的推荐网址。
+                </div>
+                
+            </div>
+
+<!-- 建模部分 -->
+            <div class="step" id="jianmo" data-x="500" data-y="-600" data-z="-800" data-scale="0.5">
+                <i class="icon-th"></i> <b>建模部分</b><br>
+            </div>
+            <div class="step" data-x="1000" data-y="-600" data-z="-800" data-rotate-z="30"  data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-laptop"></i> 功能建模(任雅丽)：用例图与活动图</b></span><br>    
+                    <img class="pic inline" src="./IMG/功能建模1.png" alt="">
+                    <img class="pic fl" src="./IMG/功能建模2.png" alt="">
+                </div>
+            </div>
+            <div class="step" data-x="1500" data-y="-600" data-z="-800" data-rotate-z="-30" data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-laptop"></i> 功能建模的一些说明</b></span><br>    
+                    <p class="smaller">– 使用该系统的主要功能者是<span class="highlight"><b>用户</b></span>;<br>
+                        – 需要该系统的支持以完成其工作的是<span class="highlight"><b>用户</b></span>；<br>
+                        – 需要维护、管理该系统，以及保持该系统处于工作状态的是<span class="highlight"><b>开发者</b></span>；<br>
+                        – 特定参与者希望系统提供什么功能：<span class="highlight"><b>搜索功能，收藏功能</b></span>；<br>
+                        – 系统是否存储和检索信息，如果是，由哪个参与者触发：<span class="highlight"><b>用户；</b></span>；<br>
+                        – 当系统改变状态时，通知<span class="highlight"><b>参与者；</b></span><br>
+                        – 通知系统这些事件的参与者是<span class="highlight"><b>用户；</b></span></p>
+                </div>
+            </div>
+            <div class="step" data-x="2000" data-y="-600" data-z="-800" data-rotate-z="30"  data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-edit"></i> 内容建模(王莹)：类图</b></span><br>    
+                    <img class="pic inline" src="./IMG/内容建模1.png" alt="">
+                    <p class="mid">- 该网址导航系统共有三个实体类：<span class="highlight">user</span>(用户类)，<span class="highlight">administrator</span>(管理员类)，<span class="highlight">keywords</span>(关键字类)；<br>
+                        - 其中<span class="highlight">管理员类</span>继承自<span class="highlight">用户类</span>，表明管理员是一类特殊的用户；用户类和管理员类分别和关键字类相关联；<br>   
+                        - 关键字类有属性<span class="highlight">sitename</span>（站点名称），<span class="highlight">urlofsite</span>（网站的地址）；<br>
+                        - 用户类的属性有：<span class="highlight">name</span>(用户名)，<span class="highlight">password</span>(密码)。方法有：<span class="highlight">register</span>(注册)，<span class="highlight">login</span>(登录)，<span class="highlight">inquire</span>(查询)，<span class="highlight">collect</span>(收藏)，<span class="highlight">delete</span>(删除)。
+                    </p>
+                </div>
+            </div>
+
+            <div class="step" data-x="2500" data-y="-600" data-z="-800" data-rotate-z="-30"  data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-edit"></i> 内容建模(王莹)：状态图</b></span><br>      
+                    <img class="pic inline" src="./IMG/内容建模2.png" alt="">
+                    <p class="mid">
+                    对该状态图做以下说明：<br>开始处于未登录状态，首先输入用户名和密码试图登录，如果为已注册用户并且用户名和密码无误且匹配，则成功进入登录状态，否则进入注册状态，注册完成后重
+                        新进行登录。处于登录状态后，可以进行查询；也可以使用管理员身份更改关键字，此时会将数据库状态更新。
+                    </p>
+                </div>
+            </div>
+
+            <div class="step" data-x="3000" data-y="-600" data-z="-800" data-rotate-z="30"  data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-fullscreen icon-spin"></i> 超文本建模(黄华健)：静态建模</b></span><br>    
+                    <img class="pic inline" src="./IMG/超文本2.png" alt="">
+                    <p class="mid">
+                       这个图比较明显：<span class="highlight">一个用户可以有多个收录的站点，一个站点最多属于一个分组。</span> 
+                    </p>
+                </div>
+            </div>
+            <div class="step" data-x="3500" data-y="-600" data-z="-800" data-rotate-z="-30"  data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-fullscreen icon-spin"></i> 超文本建模(黄华健)：动态建模</b></span><br>    
+                    <img class="pic inline" src="./IMG/超文本1.png" alt="">
+                    <p class="mid">
+                       - 显然，你可以从主页面<span class="highlight">注册和登陆</span><br>
+                       - 你也可以实行核心功能：<span class="highlight">搜索导航</span><br>  
+                         - 如果你登陆，你可以<span class="highlight">删除收藏或寻找新的收藏</span><br>
+                         - 如果你没登陆，则提示你<span class="highlight">需要登陆</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="step" data-x="4000" data-y="-600" data-z="-800" data-rotate-z="30"  data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-ok"></i> 适应性建模(李鹏)：</b></span><br>
+                    <div class="mid">
+                        静态建模：这部分内容和超文本建模静态建模重合了。<br>
+                        动态建模：<br><img class="pic inline" src="./IMG/适应建模1.png" alt=""><br>
+                        用户可以选择自己需要执行的功能，系统会跳转到相应的功能。然后还能回到主页。
+                    </div>    
+                </div>
+            </div>
+            
+            <div class="step" data-x="4500" data-y="-600" data-z="-800" data-rotate-z="-30"  data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-trophy"></i> 展示建模(李鸿麟)：</b></span><br>
+                    <div class="mid">
+                         <img class="pic inline" src="./IMG/展示建模1.png" alt=""><br>
+                         这里是首页的展示建模<br>
+                         <img class="pic inline" src="./IMG/展示建模3.png" alt=""><br>
+                         这里是登录(注册)的展示建模
+                    </div>    
+                </div>
+            </div>
+            <div class="step" data-x="5000" data-y="-600" data-z="-800" data-rotate-z="30"  data-scale="0.5">
+                <div class="smaller">
+                    <span class="smaller"><b><i class="icon-trophy"></i> 展示建模(李鸿麟)：</b></span><br>
+                    <div class="mid">
+                         <img class="pic inline" src="./IMG/展示建模2.png" alt=""><br>
+                         这里是展示建模的动态建模部分
+                    </div>    
+                </div>
+            </div>
+
+<!-- 建模部分结束 -->
+
+<!-- 架构部分 -->
+            <div class="step" id="jiagou" data-x="0" data-y="-800" data-z="0" data-rotate="270" data-scale="0.5">
+                <i class="icon-building"></i><b> 架构部分(黄华健)- <span class="highlight">使用层次架构</span> </b>
+            </div>
+            <div class="step" data-x="-500" data-y="-800" data-z="0" data-rotate="240" data-scale="0.5">
+                <img src="./IMG/层次架构图.png" alt="" style="width:100%;height:100%;border-radius:5px;">
+            </div>
+            <div class="step" data-x="-1000" data-y="-800" data-z="0" data-rotate="310" data-scale="0.5">
+                <img src="./IMG/详细架构图.png" alt="" style="width:100%;height:100%;border-radius:5px;">
+            </div>
+<!-- 架构部分结束 -->
+
+<!-- 设计部分 -->
+            <div class="step" id="sheji" data-x="-2000" data-y="-800" data-z="800" data-rotate="180" data-scale="0.5">
+                <i class="icon-magic"></i><b> 设计部分</b>
+            </div>
+            <div class="step" data-x="-2500" data-y="-800" data-z="800" data-rotate="150" data-scale="0.5">
+                <i class="icon-exchange"></i><b> 交互设计(李鹏)- <span class="highlight">首页</span> </b>
+                <img src="./IMG/交互设计1.png" alt="" style="width:100%;height:100%;border-radius:5px;">
+            </div>
+            <div class="step" data-x="-3000" data-y="-800" data-z="800" data-rotate="180" data-scale="0.5">
+                <i class="icon-exchange"></i><b> 交互设计(李鹏)- <span class="highlight">登录注册页面</span> </b>
+                <img src="./IMG/交互设计2.png" alt="" style="width:100%;height:100%;border-radius:5px;">
+            </div>
+            <div class="step" data-x="-3500" data-y="-800" data-z="800" data-rotate="150" data-scale="0.5">
+                <i class="icon-exchange"></i><b> 交互设计(李鹏)- <span class="highlight">管理员界面</span> </b>
+                <img src="./IMG/交互设计3.png" alt="" style="width:100%;height:100%;border-radius:5px;">
+            </div>
+
+            <div class="step" data-x="-4000" data-y="-800" data-z="800" data-rotate="180" data-scale="0.5">
+                <i class="icon-spinner icon-spin"></i><b> 展示设计(李鸿麟)</b>
+                <div class="smallest">
+                - 颜色采用<span class="highlight"><b>浅蓝色</b></span>，给用户宁静清新简约的风格感受<br>
+                - 采用<span class="highlight"><b>线框布局</b></span>，将收藏网站放入其中，凸显简约风格，<span class="highlight"><b>圆角矩形</b></span>更显人性化，提高视觉舒适度<br>
+                - 布局类型：框架布局<br>
+                - 页面布局技术：采用<span class="highlight"><b>div</b>+css</span>技术，方便有效的布局技术<br>
+                - 主页布局设计原则：凸显<span class="highlight"><b>简约清新</b></span>的主题风格<br>
+                - 内容为收藏网址清单，功能单一明确，<span class="highlight"><b>针对性强</b></span><br>
+                - 添加收藏只需一点，<span class="highlight"><b>简单易用</b></span><br>
+                - 页面元素设计：跟用户的交互性特别强，当用户鼠标落在相应元素区域，会有友好及时的相应<br>
+                </div>
+            </div>
+
+            <div class="step" data-x="-4500" data-y="-800" data-z="800" data-rotate="150" data-scale="0.5">
+                <i class="icon-bell"></i><b> 应用设计(王诗琪)</b>
+                <div class="smallest">
+                    Easy-go在内容设计上主要采用适合小型web应用的<span class="highlight"><b>自底向上</b></span>的信息设计方法，仅涉及实际web页面的设计和构建，并逐步将运行过程中的web页面链接起来。主要分为以下几个步骤进行。<br>
+                    一、<span class="highlight"><b>信息架构</b></span><br>针对Easy-go涉及组织、标识、导航和搜索的涉及，主要任务是对输入关键字信息进行<span class="highlight"><b>识别、分类、匹配.</b></span>
+                    组织关键在于对后台数据库内容的<span class="highlight"><b>实时更新</b></span>，输入关键字以后，系统会在后台数据库中对该关键字进行识别，并与之所有网站导航进行匹配，找到符合的网站后系统不会
+                    跳转到别的页面，而是直接进入数据库搜索然后显示结果。系统可以实现对网站导航的收藏和删除收藏操作，不过前提是登录以后才可以进行收藏。当你登录以后,有标识可以显示你的收藏，同样的道理，也应该有标识可以删除收藏。
+                </div>
+            </div>
+
+            <div class="step" data-x="-5000" data-y="-800" data-z="800" data-rotate="180" data-scale="0.5">
+                <i class="icon-bell"></i><b> 应用设计(王诗琪)</b>
+                <div class="smallest">
+                    二、<span class="highlight"><b>组织内容</b></span><br>
+                    该阶段的主要目的是使网站导航信息可获取、易获取。组织方式采用线性结构如下：<br>
+                    <img class="pic inline" src="./IMG/应用设计1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="step" data-x="-5500" data-y="-800" data-z="800" data-rotate="150" data-scale="0.5">
+                <i class="icon-bell"></i><b> 应用设计(王诗琪)</b>
+                <div class="smallest">
+                    三、<span class="highlight"><b>导航机制</b></span><br>- Easy-go采用的导航机制要求明确标记各种logo、标识，与后台数据库实现<span class="highlight"><b>全局链接</b></span>、拥有个性化的界面设计和简单快捷的搜索机制。<br>- 首先会有一个整体的界面相当于网站首页展示给用户，一个简单的搜索关键字输入后，一个go的标识按钮会对整个后台数据库实现全局控制。在搜索匹配关键字过程中会
+                采用<span class="highlight"><b>语境导航</b></span>这种方式，在后台数据库上下文内容中进行实现。此外该应用中<span class="highlight"><b>收藏</b></span>和<span class="highlight"><b>删除收藏</b></span>的功能在浏览网站导航时供用户操作，这相当于<span class="highlight"><b>补充导航</b></span>给用户提供了在页面内容之外进入内容的途径。
+                </div>
+            </div>
+
+            <div class="step" data-x="-6000" data-y="-800" data-z="800" data-rotate="180" data-scale="0.5">
+                <i class="icon-star icon-spin"></i><b> 功能设计(王潭)</b><br>
+                <div class="smallest">
+                    <span class="highlight"><b>注册与登录用例</b></span><br>
+                    <img class="pic inline" src="./IMG/功能设计1.png" alt="">
+                    <img class="pic inline" src="./IMG/功能设计2.png" alt="">
+                </div>
+            </div>
+
+            <div class="step" data-x="-6500" data-y="-800" data-z="800" data-rotate="150" data-scale="0.5">
+                <i class="icon-star icon-spin"></i><b> 功能设计(王潭)</b><br>
+                <div class="smallest">
+                    <span class="highlight"><b>搜索与删除用例</b></span><br>
+                    <img class="pic inline" src="./IMG/功能设计3.png" alt="">
+                    <img class="pic inline" src="./IMG/功能设计4.png" alt="">
+                </div>
+            </div>
+
+            <div class="step" data-x="-7000" data-y="-800" data-z="800" data-rotate="180" data-scale="0.5">
+                <i class="icon-star icon-spin"></i><b> 功能设计(王潭)</b><br>
+                <div class="smallest">
+                    <span class="highlight"><b>整站状态图</b></span><br>
+                    <img class="pic inline" src="./IMG/功能设计6.png" alt="" style="width:100%;height:100%;border-radius:5px;">
+                </div>
+            </div>
+
+<!-- 设计部分结束 -->
+            
+
+            <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+                <b><i class="icon-hdd"></i><span class="highlight"> 技术关键字</span></b>
+                <p><img src="./IMG/JQuery.jpeg" alt="" class="icon"><b class="positioning">JQuery</b><br> <img src="./IMG/Bootstrap.png" alt="" class="icon"><b class="rotating">Bootstrap</b> <br><img src="./IMG/PHP.jpeg" alt="" class="icon"> <b class="scaling">PHP</b><br><img src="./IMG/github.jpeg" alt="" class="icon"> <b>Github</b> </p>
+            </div>
+
+            <div class="step" data-x="-2800" data-y="-1000" data-rotate-x="30" data-rotate-y="-30" data-rotate-z="90" data-scale="0.5">
+                一些构想<br>
+                - 更智能的搜索匹配算法<br>
+                - 全自动的网站收录<br>
+                ...
+            </div>
+            <!-- darren code -->
+            <div id="overview" class="step" data-x="-200" data-y="-500" data-scale="3"></div>
+        </div>
+        <script src="./JS/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>

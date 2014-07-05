@@ -1,0 +1,101 @@
+/*CSS RESET*/
+*{margin:0;padding:0;}
+body{font-size: 125%;font-family: "Helvetica Neue", "Hiragino Sans GB", "冬青黑体", Helvetica, Arial, sans-serif;}
+ul{list-style-type: none;}
+
+.ourbody{
+	background-color: #f5f7f7;
+	color:#3C4650;
+	}
+.greenlight{
+	color:#50C9C4;
+	}
+.inline{
+	display:inline-block;
+}
+.resize{
+	font-size: 0.75em;
+}
+.content-title{
+	width:30em;
+	line-height:2em;
+	margin-left: 2em;
+	font-weight: bold;
+	border-bottom: 1px solid #DDDDDD;
+	margin-bottom: 1em;
+	}
+.content-wrapper{
+	width:30em;
+	margin-left:2em;
+	padding-right:2em;
+	}
+
+.content-button{
+	font-size: 0.75em;
+	width:4.5em;
+	height: 1.33em;
+	margin-top: 1em;
+	border:1px solid #DDDDDD;
+	background-color: white;
+	color:#3C4650;
+	border-radius: 5px;
+	outline: none;
+	cursor:pointer;
+	}
+	.content-button:hover{
+	color:white;
+	background-color: #B1D6F1;
+	}
+.mb1{
+	margin-bottom: 1em;
+	}
+.bfc{
+	overflow:hidden;
+	*zoom:1;
+	}
+.hide{display: none}
+.fl{float:left;}
+.fr{float:right;}
+.color-trans{
+	transition: color 0.2s linear;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	transition-delay: initial;
+	-moz-transition: color 0.2s linear;
+	-webkit-transition: color 0.2s linear;
+	}
+.edit-detail{
+	float:left;
+	font-size: 0.75em;
+	height:35em;
+	}
+	.edit-detail label{
+		/*margin-bottom: 1em;*/
+		display:inline-block;
+		vertical-align: middle;
+	}
+	.edit-detail .input{
+		font-size: 1em;
+		height:1em;
+		width:8em;
+		vertical-align: middle;
+		border-radius: 3px;
+		outline: none;
+		/*margin-bottom: 1em;*/
+		margin-right: 5em;
+		border:1px solid #DDDDDD;
+		background-color: #F5F7F7;
+	}
+
+.little-nav{
+	border:1px solid #3C4650;
+	border-radius: 5px;
+	width:362px;
+	text-align: center;
+	margin:0 auto;
+	}
+	.little-nav li{
+		float:left;
+		width:8em;
+	}

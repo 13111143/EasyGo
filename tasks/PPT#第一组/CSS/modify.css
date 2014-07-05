@@ -1,0 +1,33 @@
+.highlight{
+	color:#1DB2D0;
+}
+.font-gray{
+	color:#666666;
+}
+.smaller{
+	font-size: 0.7em;
+}
+.smallest{
+	font-size: 0.5em;
+}
+.mid{
+	font-size: 0.6em;
+}
+.tab{
+	margin-left: 2.5em;
+}
+.girl{
+	color:#E88383;
+}
+.boy{
+	color:#1DB0CF;
+}
+.pic{
+	height:300px;
+	width: 500px;
+}
+.icon{
+	height:50px;
+	width:50px;
+	border-radius: 5px;
+}
